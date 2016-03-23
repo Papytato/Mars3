@@ -31,67 +31,67 @@
                       </block>
                     </value>
                     <next>
-                      <block type="robot_delay" id="24" inline="true">
+                      <block type="robot_delay" id="10" inline="true">
                         <value name="DELAY">
-                          <block type="math_number" id="25">
+                          <block type="math_number" id="11">
                             <field name="NUM">5000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_setcursor" id="10" inline="true">
+                          <block type="oled_setcursor" id="12" inline="true">
                             <value name="STARTX">
-                              <block type="math_number" id="11">
+                              <block type="math_number" id="13">
                                 <field name="NUM">10</field>
                               </block>
                             </value>
                             <value name="STARTY">
-                              <block type="math_number" id="12">
+                              <block type="math_number" id="14">
                                 <field name="NUM">10</field>
                               </block>
                             </value>
                             <next>
-                              <block type="oled_drawtext" id="13">
+                              <block type="oled_drawtext" id="15">
                                 <field name="TEXT">Green</field>
                                 <next>
-                                  <block type="oled_drawnumber" id="14" inline="true">
+                                  <block type="oled_drawnumber" id="16" inline="true">
                                     <value name="NUMBER">
-                                      <block type="sensor_spectrometer" id="15">
+                                      <block type="sensor_spectrometer" id="17">
                                         <field name="LIGHT">GREEN</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="robot_delay" id="26" inline="true">
+                                      <block type="robot_delay" id="18" inline="true">
                                         <value name="DELAY">
-                                          <block type="math_number" id="27">
+                                          <block type="math_number" id="19">
                                             <field name="NUM">5000</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_setcursor" id="16" inline="true">
+                                          <block type="oled_setcursor" id="20" inline="true">
                                             <value name="STARTX">
-                                              <block type="math_number" id="17">
+                                              <block type="math_number" id="21">
                                                 <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <value name="STARTY">
-                                              <block type="math_number" id="18">
+                                              <block type="math_number" id="22">
                                                 <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="oled_drawtext" id="19">
+                                              <block type="oled_drawtext" id="23">
                                                 <field name="TEXT">Blue</field>
                                                 <next>
-                                                  <block type="oled_drawnumber" id="20" inline="true">
+                                                  <block type="oled_drawnumber" id="24" inline="true">
                                                     <value name="NUMBER">
-                                                      <block type="sensor_spectrometer" id="21">
+                                                      <block type="sensor_spectrometer" id="25">
                                                         <field name="LIGHT">BLUE</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="robot_delay" id="22" inline="true">
+                                                      <block type="robot_delay" id="26" inline="true">
                                                         <value name="DELAY">
-                                                          <block type="math_number" id="23">
+                                                          <block type="math_number" id="27">
                                                             <field name="NUM">5000</field>
                                                           </block>
                                                         </value>
